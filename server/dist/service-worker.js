@@ -17,7 +17,7 @@ importScripts(
   "/precache-manifest.a14d08d959aeaa21de5cdb2a57fec282.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "adeept_bot_controller_web"});
+workbox.core.setCacheNameDetails({prefix: "Arquitecura II"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
